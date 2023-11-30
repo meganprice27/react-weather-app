@@ -9,6 +9,7 @@ export default function App() {
         <a
           href="https://marvelous-queijadas-2d1dd5.netlify.app/"
           target="_blank"
+          rel="noreferrer"
         >
           Megan Price
         </a>{" "}
@@ -16,6 +17,7 @@ export default function App() {
         <a
           href="https://github.com/meganprice27/react-weather-app"
           target="_blank"
+          rel="noreferrer"
         >
           open-sourced
         </a>
