@@ -1,0 +1,19 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  color: rgb(85, 85, 85);
+  background: #ffe5c4;
+  max-width: 650px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+footer {
+  text-align: center;
+  opacity: 0.8;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+footer a {
+  color: #f66550;
+}

@@ -6,37 +6,44 @@ export default function Weather() {
     <div className="Weather">
       <form>
         <div className="row">
-          <div className="col-9">
+          <div className="col-10">
             <input
               type="search"
               placeholder="Enter a city..."
-              className="form-control"
+              className="form-control search-bar"
+              autoFocus="on"
             />
           </div>
-          <div className="col-1">
-            <input type="submit" value="search" />
+          <div className="col-2">
+            <input type="submit" value="Search" className="search-button" />
           </div>
         </div>
       </form>
 
       <h1>London</h1>
-      <ul>
+      <ul className="time-weather">
         <li>Thursday 16:00</li>
         <li>Clear</li>
       </ul>
       <div className="row">
-        <div className="col-6">
+        <div className="col-7">
           <img
             src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
             alt="Clear"
           />
-          4°C
+          <span className="temperature">4°C</span>
         </div>
-        <div className="col-6">
+        <div className="col-4">
           <ul>
-            <li>Precipitation: 1%</li>
-            <li>Humidity: 70%</li>
-            <li>Wind: 6 mph</li>
+            <li>
+              <strong>Precipitation:</strong> 1%
+            </li>
+            <li>
+              <strong>Humidity:</strong> 70%
+            </li>
+            <li>
+              <strong>Wind:</strong> 6 km/h
+            </li>
           </ul>
         </div>
       </div>

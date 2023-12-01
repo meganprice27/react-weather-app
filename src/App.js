@@ -16,13 +16,13 @@ export default function App() {
           >
             Megan Price
           </a>{" "}
-          and is{" "}
+          and is open-sourced on{" "}
           <a
             href="https://github.com/meganprice27/react-weather-app"
             target="_blank"
             rel="noreferrer"
           >
-            open-sourced
+            GitHub
           </a>
         </footer>
       </div>
