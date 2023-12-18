@@ -57,6 +57,10 @@ h1 {
   opacity: 0.8;
 }
 
+.time-forecast {
+  display: flex;
+}
+
 .Weather .temperature-display {
   display: flex;
   padding: 20px 0 0 15px;
